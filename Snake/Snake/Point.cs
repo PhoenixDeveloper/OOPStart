@@ -42,11 +42,11 @@ namespace Snake
             }
             else if(direction == Direction.UP)
             {
-                y += offfset;
+                y -= offfset;
             }
             else if (direction == Direction.DOWN)
             {
-                y -= offfset;
+                y += offfset;
             }
         }
 
